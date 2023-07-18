@@ -16,6 +16,7 @@ while True:
  if valor > 0:
   saldo += valor
   saque -= saldo
+  
   extrato +=f"deposito: $ {valor:.2f}\n"
  elif saque > saldo:
   print("saldo insuficiente!")
@@ -27,10 +28,12 @@ while True:
   print(f"seu saque foi de $ {saque}")
         
  elif opcao == 3:
-      print(f"seu extra e de $ {extrato:.2f}")
+     print(f"seu extra e de $ {extrato:.2f}")
         
  elif opcao == 4:
-      print("saindo... obrigado por usar nosso serviço")
-      break
+     print("saindo... obrigado por usar nosso serviço")
+     break
+
  else:
-      print("opração invalida!!!")
+     print("opração invalida!!!")
+     opcao.clear()
