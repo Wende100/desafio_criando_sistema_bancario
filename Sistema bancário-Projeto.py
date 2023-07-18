@@ -1,6 +1,8 @@
-nome = input("""
-             =================== MENU =======================
+print("""
+             ============================================ MENU  ============================================
+             
     """)
+nome = input("seu nome é: ")
 print(f"seja bem vindo {nome.upper()} a sua conta!")
 
 saldo = int(input("deposite um valor: "))
